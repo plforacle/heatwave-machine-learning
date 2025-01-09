@@ -138,14 +138,14 @@ In this lab, you will be guided through the following tasks:
     ```
 
     ```bash
-    <copy> sudo wget https://objectstorage.us-ashburn-1.oraclecloud.com/p/EQTHbWQcztdMROAhjbJBgPdyK8gqU-khhM871SJCxsmsMHqJlGvGrJ6z5uSQlxot/n/mysqlpm/b/mysql_iris_ml_app/o/iris_app.zip </copy>
+    <copy> sudo wget https://objectstorage.us-ashburn-1.oraclecloud.com/p/9WLLKC8BD0tfBdIJ98_x7dXLN9Kvow9ZPtBD35KVwzdqoIQshX1WBBMBB7AqIGMT/n/mysqlpm/b/mysql_iris_ml_app/o/iris_app.zip </copy>
     ```
 
     ```bash
     <copy>sudo unzip iris_app.zip</copy>
     ```
 
-3. Configure the application to connect to MySQL HeatWave. <br>
+3. Configure the application to connect to MySQL HeatWave.
    Replace the database IP in config.php file with your heatwave database IP and save the file.
 
     ```bash
