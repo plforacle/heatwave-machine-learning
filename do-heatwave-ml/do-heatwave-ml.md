@@ -22,6 +22,7 @@ _Estimated Time:_ 10 minutes
 
 In this lab, you will be guided through the following task:
 
+- Create Machine Learning user ml_dev
 - Load Iris Data into HeatWave
 
 ### Prerequisites
@@ -36,7 +37,9 @@ In this lab, you will be guided through the following task:
 
     (Example: **ssh -i id_rsa opc@132.145.17....**)
 
-2. On the command line, connect to MySQL using the MySQL Shell client tool with the following command:
+2. In this lab we will create the user **ml_dev** and set the privilieges to build the AutoML model.
+
+3. On the command line, connect to the MySQL **admin** user  using the MySQL Shell client tool with the following command:
 
     ```bash
     <copy>mysqlsh -uadmin -p -h 10.... -P3306 --sql </copy>
@@ -44,7 +47,7 @@ In this lab, you will be guided through the following task:
 
     ![Connect](./images/heatwave-load-shell.png "heatwave-load-shell ")
 
-3. In this lab we use the administrative account previously created, but if you want to use a dedicated MySQL user, please remember to grant the following privileges to use HeatWave AutoML
+
 
     a. SELECT and ALTER privileges on the schema that contains the machine learning datasets
 
